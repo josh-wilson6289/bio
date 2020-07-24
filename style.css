@@ -18,3 +18,33 @@ p {
   text-align: left;
 }
 
+img {
+  height: 250px;
+  width: 250px;
+}
+
+.col-md-3 {
+  border: black;
+  border-style: solid;
+}
+
+.col-md-9 {
+  border: black; 
+  border-style: bold;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  }
+}
