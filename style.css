@@ -2,14 +2,6 @@ body {
   background-image: url('./assets/dust_scratches.png');
 }
 
-
-.jumbotron {
-  background-image: url('./assets/dust_scratches.png');
-  border-bottom: solid;
-  border-color: black;
-  border-width: 2px;
-}
-
 h1 {
   text-align: center;
 }
@@ -19,8 +11,8 @@ p {
 }
 
 img {
-  height: 250px;
-  width: 250px;
+  height: 300px;
+  width: 300px;
 }
 
 @media screen and (max-width: 768px) {
@@ -30,4 +22,8 @@ img {
   margin-right: auto;
   width: 50%;
   }
+}
+
+h2 {
+  text-align: center;
 }
