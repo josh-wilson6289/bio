@@ -1,0 +1,32 @@
+body {
+  background-image: url('./assets/dust_scratches.png');
+}
+
+
+.jumbotron {
+  background-image: url('./assets/dust_scratches.png');
+  border-bottom: solid;
+  border-color: black;
+  border-width: 2px;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  text-align: left;
+}
+
+h2 {
+  text-align: center;
+}
+
+ul {
+  text-align: left;
+}
+
+h3 {
+  text-align: center;
+}
+
