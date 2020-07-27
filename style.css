@@ -2,9 +2,10 @@
   text-decoration-color: #3d3d3f;
 }
 
-nav {
-  margin-bottom: 20px;
+.navigation {
+  margin-bottom: 100px;
 }
+
 body {
   background-image: url('./assets/dust_scratches.png');
   /* background-color: #f9f8fd;*/
@@ -19,6 +20,7 @@ body {
   background-image: url('./assets/dust_scratches.png');
   margin-bottom: 50px;
 }
+
 h1 {
   text-align: center;
 }
@@ -84,7 +86,17 @@ h2 {
   margin-bottom: 50px;
 }
 
-.form-group .submit {
-  margin-left: 8%;
-  margin-right: 8%;
+.skills {
+margin-bottom: 150px;
+}
+
+footer ul {
+  float: none;
+  margin: 0 auto;
+  display: inline;
+  text-align: center;
+}
+
+.contact {
+  margin-bottom: 500px;
 }
