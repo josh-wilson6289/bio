@@ -83,3 +83,8 @@ h2 {
   display: block;
   margin-bottom: 50px;
 }
+
+.form-group {
+  margin-left: 8%;
+  margin-right: 8%;
+}
