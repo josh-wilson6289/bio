@@ -7,8 +7,9 @@
 }
 
 body {
- 
+  background-image: url("./assets/dust_scratches.jpg");
 }
+
 
 .jumbotron {
   border-style: solid;
