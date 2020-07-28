@@ -7,7 +7,7 @@
 }
 
 body {
-  background-image: url('./assets/dust_scratches.png');
+  background-image: url('./assets/dust_scratches.jpg');
   /* background-color: #f9f8fd;*/
 }
 
@@ -17,7 +17,7 @@ body {
   border-radius: 5px;
   border-color: #475058;
   /* background-color: #f6f5f3; */
-  background-image: url('./assets/dust_scratches.png');
+  background-image: url('./assets/dust_scratches.jpg');
   margin-bottom: 50px;
 }
 
@@ -61,7 +61,7 @@ h2 {
   border-width: 1px;
   border-radius: 5px;
   border-color: #475058;
-  background-image: url('./assets/dust_scratches.png');
+  background-image: url('./assets/dust_scratches.jpg');
 }
 
 .list-group-item {
@@ -69,7 +69,7 @@ h2 {
   border-width: 1px;
   border-radius: 5px;
   border-color: #475058;
-  background-image: url('./assets/dust_scratches.png');
+  background-image: url('./assets/dust_scratches.jpg');
 }
 
 .card {
@@ -77,7 +77,7 @@ h2 {
   border-width: 1px;
   border-radius: 5px;
   border-color: #475058;
-  background-image: url('./assets/dust_scratches.png');
+  background-image: url('./assets/dust_scratches.jpg');
 }
 
 .portfolio img {
