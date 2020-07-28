@@ -97,6 +97,10 @@ footer ul {
   text-align: center;
 }
 
+footer li {
+  padding-left: 8px;
+}
+
 .contact {
   margin-bottom: 500px;
 }
