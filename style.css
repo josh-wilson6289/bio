@@ -7,7 +7,7 @@
 }
 
 body {
-  background: url('./assets/dust_scratches.jpg');
+  background-image: url("./assets/dust_scratches.jpg");
 }
 
 .jumbotron {
