@@ -81,7 +81,7 @@ h2 {
 .portfolio img {
   margin: auto;
   display: block;
-  margin-bottom: 50px;
+  margin-bottom: 150px;
 }
 
 .skills {
@@ -100,5 +100,5 @@ footer li {
 }
 
 .contact {
-  margin-bottom: 500px;
+  margin-bottom: 150px;
 }
