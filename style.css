@@ -100,7 +100,7 @@ footer li {
   padding-left: 8px;
 }
 
-/* Media Query (To get bio picture to center properly on smaller screens) */
+/* Media Query (To get bio picture to center properly on screens smaller than an ipad pro) */
 
 @media screen and (max-width: 1366px) {
   img {
