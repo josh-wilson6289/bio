@@ -102,10 +102,11 @@ footer li {
 
 /* Media Query (To get bio picture to center properly on smaller screens) */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1366px) {
   img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
   }
 }
