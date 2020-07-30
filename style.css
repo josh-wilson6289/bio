@@ -1,14 +1,29 @@
+/* Global Styling */
 * {
   text-decoration-color: #3d3d3f;
+}
+
+body {
+  background-image: url('./Assets/dust_scratches.jpg');
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+p {
+  text-align: left;
 }
 
 .navigation {
   margin-bottom: 100px;
 }
 
-body {
-  background-image: url('./Assets/dust_scratches.jpg');
-}
+/* Index.html Styling */
 
 .jumbotron {
   border-style: solid;
@@ -19,21 +34,9 @@ body {
   margin-bottom: 50px;
 }
 
-h1 {
-  text-align: center;
-}
-
-p {
-  text-align: left;
-}
-
 img {
   height: 300px;
   width: 300px;
-}
-
-h2 {
-  text-align: center;
 }
 
 .card {
@@ -42,6 +45,11 @@ h2 {
   margin-right: auto;
   width: 50%;
   margin-bottom: 30px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  border-color: #475058;
+  background-image: url('./Assets/dust_scratches.jpg');
 }
 
 .card-header {
@@ -61,13 +69,11 @@ h2 {
   background-image: url('./Assets/dust_scratches.jpg');
 }
 
-.card {
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 5px;
-  border-color: #475058;
-  background-image: url('./Assets/dust_scratches.jpg');
+.skills {
+margin-bottom: 150px;
 }
+
+/* Portfolio.html Styling */
 
 .portfolio img {
   margin: auto;
@@ -75,9 +81,13 @@ h2 {
   margin-bottom: 150px;
 }
 
-.skills {
-margin-bottom: 150px;
+/* Contact.html Styling */
+
+.contact {
+  margin-bottom: 150px;
 }
+
+/* Footer Styling */
 
 footer ul {
   float: none;
@@ -90,9 +100,7 @@ footer li {
   padding-left: 8px;
 }
 
-.contact {
-  margin-bottom: 150px;
-}
+/* Media Query (To get bio picture to center properly on smaller screens) */
 
 @media screen and (max-width: 768px) {
   img {
