@@ -34,17 +34,12 @@ p {
   margin-bottom: 50px;
 }
 
-img {
-  height: 300px;
-  width: 530px;
-  border: solid #475058;
-
-}
 
 #pic {
-  height: 300px;
-  width: 189px;
-  border: solid #475058; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  width: 100%;
 }
 
 .card {
@@ -84,9 +79,12 @@ margin-bottom: 150px;
 /* Portfolio.html Styling */
 
 .portfolio img {
-  margin: auto;
-  display: block;
-  margin-bottom: 150px;
+  height: 300px;
+  width: 530px;
+  border: solid #475058;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
 }
 
 /* Contact.html Styling */
@@ -110,7 +108,13 @@ footer li {
 
 .project-description {
   text-align: center;
-  
+}
+
+.portfolio-button {
+  position: absolute;
+  top: 75%;
+  left: 25%;
+  display: none;  
 }
 /* Media Query (To get bio picture to center properly on screens smaller than an ipad pro) */
 
