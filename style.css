@@ -36,8 +36,15 @@ p {
 
 img {
   height: 300px;
-  width: 189px;
+  width: 530px;
   border: solid #475058;
+
+}
+
+#pic {
+  height: 300px;
+  width: 189px;
+  border: solid #475058; 
 }
 
 .card {
@@ -101,6 +108,10 @@ footer li {
   padding-left: 8px;
 }
 
+.project-description {
+  text-align: center;
+  
+}
 /* Media Query (To get bio picture to center properly on screens smaller than an ipad pro) */
 
 @media screen and (max-width: 1366px) {
