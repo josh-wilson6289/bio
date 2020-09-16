@@ -80,13 +80,16 @@ margin-bottom: 150px;
 
 .portfolio img {
   height: 300px;
-  width: 530px;
-  border: solid #475058;
+  width: 540px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50%;
+  padding-bottom: 10px;
 }
 
+.btn-right {
+  float: right;
+}
 /* Contact.html Styling */
 
 .contact {
