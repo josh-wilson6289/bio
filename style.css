@@ -134,7 +134,7 @@ footer li {
   margin-right: auto;
   width: 100%;
   }
-
+}
 @media screen and (max-width: 1366px) {
   .portfolio img {
   display: block;
