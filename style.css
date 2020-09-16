@@ -90,6 +90,19 @@ margin-bottom: 150px;
 .btn-right {
   float: right;
 }
+
+.project-description {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.portfolio-button {
+  position: absolute;
+  top: 75%;
+  left: 25%;
+  display: none;  
+  padding-bottom: 20px;
+}
 /* Contact.html Styling */
 
 .contact {
@@ -97,6 +110,9 @@ margin-bottom: 150px;
 }
 
 /* Footer Styling */
+footer {
+  padding-top: 75px;
+}
 
 footer ul {
   float: none;
@@ -109,16 +125,6 @@ footer li {
   padding-left: 8px;
 }
 
-.project-description {
-  text-align: center;
-}
-
-.portfolio-button {
-  position: absolute;
-  top: 75%;
-  left: 25%;
-  display: none;  
-}
 /* Media Query (To get bio picture to center properly on screens smaller than an ipad pro) */
 
 @media screen and (max-width: 1366px) {
