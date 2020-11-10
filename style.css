@@ -91,6 +91,11 @@ margin-bottom: 150px;
   float: right;
 }
 
+#readme-btn {
+  position: absolute;
+  left: 40%;
+}
+
 .project-description {
   text-align: center;
   padding-top: 10px;
